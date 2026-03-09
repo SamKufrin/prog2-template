@@ -1,0 +1,47 @@
+---
+title: Klassendiagramm – [Spieltitel hier eintragen]
+---
+classDiagram
+
+    %% ============================================================
+    %% Ab Woche 6: Tragen Sie hier Ihre Klassen ein.
+    %% Aktualisieren Sie das Diagramm bei jedem Refactoring!
+    %%
+    %% Anleitung:
+    %%   - GitHub rendert .mmd-Dateien automatisch als Diagramm
+    %%   - Lokal können Sie den Mermaid Live Editor nutzen:
+    %%     https://mermaid.live
+    %%   - Dokumentation: https://mermaid.js.org/syntax/classDiagram.html
+    %% ============================================================
+
+    %% Beispiel (löschen und durch eigene Klassen ersetzen):
+
+    class Game {
+        -screen: Surface
+        -clock: Clock
+        -running: bool
+        +run()
+        +handle_events()
+        +update(dt)
+        +draw()
+    }
+
+    class Ball {
+        -x: float
+        -y: float
+        -sx: float
+        -sy: float
+        -image: Surface
+        +update()
+        +draw(surface)
+    }
+
+    Game --> Ball : enthält *
+
+    %% Beziehungstypen:
+    %%   A --> B      : Assoziation (A kennt B)
+    %%   A --* B      : Komposition (B gehört zu A, wird mit A zerstört)
+    %%   A --o B      : Aggregation (B gehört zu A, existiert unabhängig)
+    %%   A --|> B     : Vererbung (A erbt von B)
+    %%   A ..|> B     : Interface-Implementierung
+    %%   A ..> B      : Dependency (A nutzt B)

@@ -6,7 +6,7 @@
 |------|---------------|-----------------|-----------|
 | [Name] | [Matrikelnr.] | [@username](https://github.com/username) | vorname.nachname@stud.haw-kiel.de |
 | [Name] | [Matrikelnr.] | [@username](https://github.com/username) | vorname.nachname@stud.haw-kiel.de |
-| [Name] | [Matrikelnr.] | [@username](https://github.com/username) | vorname.nachname@stud.haw-kiel.de |
+| [Sam Kufrin] | [944056] | [@SamKufrin](https://github.com/SamKufrin) | sam.kufrin@stu.haw-kiel.de |
 
 ## Spielbeschreibung
 
